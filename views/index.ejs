@@ -5,6 +5,13 @@
     <title>Document</title>
 </head>
 <body>
-    <div><a href="/page">ссылка</a></div>
+    <ul>
+        <% arr.forEach(function(item){ %>
+            <li>
+                <%= item %>
+            </li>
+        <% }); %>
+    </ul>
+    <a href="/page">ссылка<a>
 </body>
 </html>
